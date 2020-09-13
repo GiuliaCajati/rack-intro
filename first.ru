@@ -7,3 +7,5 @@ my_server = Proc.new do
 end
 
 run my_server
+
+#http://localhost:9292/

@@ -8,9 +8,11 @@ class MyServer
 
   def pretty_response
     (Time.now.to_i % 2).zero? ?  ["<em>Hello</em>"] : ["<strong>Hello</strong>"]
+    #if  remainder is zero then em if not strong 
   end
 end
 
 run MyServer.new
-
+#rackup second.ru
 #http://localhost:9292/
+
